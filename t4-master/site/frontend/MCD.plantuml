@@ -1,0 +1,47 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype polyline
+
+class node7 as "@mui/.../index.d.ts" {
+   LinearProgress: 
+}
+class node4 as "@types/.../index.d.ts"
+class node2 as "Components/Button.jsx"
+class node3 as "Components/Card.jsx"
+class node6 as "Components/GameInterface.jsx" {
+   Button: 
+   Card: 
+   Header: 
+   LinearProgress: 
+   React: 
+   get_actions: 
+   get_situations: 
+   useEffect: 
+   useState: 
+}
+class node5 as "Components/Header.jsx"
+class node8 as "api/person.js" {
+   get_actions: 
+   get_situations: 
+}
+class node9 as "external/react.d.ts"
+class react {
+   useEffect: 
+   useState: 
+}
+class node0 as "react/react.shared-subset.js"
+
+node6  <-[#595959,plain]-  node7 
+node6  <-[#595959,plain]-  node4 
+node6  <-[#595959,plain]-  node2 
+node6  <-[#595959,plain]-  node3 
+node6  <-[#595959,plain]-  node5 
+node6  <-[#595959,plain]-  node8 
+node6  <-[#595959,plain]-  node8 
+node6  <-[#595959,plain]-  node9 
+node6  <-[#595959,plain]-  react 
+node6  <-[#595959,plain]-  react 
+node6  <-[#595959,plain]-  node0 
+@enduml
