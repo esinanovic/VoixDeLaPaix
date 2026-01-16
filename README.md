@@ -45,10 +45,10 @@ Prérequis : Avoir NodeJS installé. <br>
 
 ## Captures d'écran
 
-![Menu sélection](./images/menu.png)
+![Menu sélection](./t4-master/images/menu.png)
 
-![Ecran démarrage](./images/ecran_demarrage.png)
+![Ecran démarrage](./t4-master/images/ecran_demarrage.png)
 
-![Situation](./images/example_situation.png)
+![Situation](./t4-master/images/example_situation.png)
 
-![Fin partie](./images/fin_partie.png)
+![Fin partie](./t4-master/images/fin_partie.png)
